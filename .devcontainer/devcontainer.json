@@ -1,0 +1,25 @@
+{
+    "name": "Python",
+    "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "markdown.preview.security.level": "allow-insecure-local-content",
+                "extensions.ignoreRecommendations": true,
+                "chat.disableAIFeatures": true,
+                "git.addAICoAuthor": "chatAndAgent",
+                "workbench.secondarySideBar.defaultVisibility": "hidden",
+                "python.defaultInterpreterPath": "/usr/local/bin/python",
+                "git.enableSmartCommit": true,
+                "git.confirmSync": false,
+                "git.postCommitCommand": "sync",
+                "git.autofetch": true,
+                "git.useEditorAsCommitInput": false,
+                "git.rebaseWhenSync": true,
+                "githubPullRequests.createOnPublishBranch": "never",
+                "terminal.integrated.ignoreProcessKeybindingWarnings": true,
+                "workbench.editorAssociations": { "*.md": "vscode.markdown.preview.editor" }
+            }
+        }
+    }
+}
